@@ -1,0 +1,1295 @@
+{
+  "name": "play",
+  "id": 9344,
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "_id": {
+        "$id": "5665c92cf6602036bbca61de"
+      },
+      "id": "69991",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-77.027204",
+          "38.996526"
+        ]
+      },
+      "properties": {
+        "play_id": "9344",
+        "content_type": "Event",
+        "artist_id": "9343",
+        "play_title": "Agnes Under the Big Top, a tall tale",
+        "play_title_display": "Agnes Under the Big Top, a tall tale",
+        "alternate_titles": [
+          {
+            "title": ""
+          }
+        ],
+        "generative_artist": "Aditi Brennan Kapil",
+        "generative_artist_path": "/artist/aditi-brennan-kapil",
+        "generative_artist_has_location": true,
+        "related_organizations": [
+          {
+            "name": "Arena Stage",
+            "path": "/organization/arena-stage"
+          },
+          {
+            "name": "Borderlands Theater",
+            "path": "/organization/borderlands-theater"
+          },
+          {
+            "name": "Forum Theatre",
+            "path": "/organization/forum-theatre"
+          },
+          {
+            "name": "InterAct Theatre Company",
+            "path": "/organization/interact-theatre-company"
+          },
+          {
+            "name": "Lark Play Development Center",
+            "path": "/organization/lark-play-development-center"
+          },
+          {
+            "name": "Long Wharf Theatre",
+            "path": "/organization/long-wharf-theatre"
+          },
+          {
+            "name": "Mixed Blood Theatre",
+            "path": "/organization/mixed-blood-theatre"
+          },
+          {
+            "name": "Rhodopi International Theatre Laboratory",
+            "path": "/organization/rhodopi-international-theatre-laboratory"
+          },
+          {
+            "name": "The Playwrights' Center",
+            "path": "/organization/the-playwrights-center"
+          },
+          {
+            "name": "Tofte Lake Center at Norm's Fish Camp",
+            "path": "/organization/tofte-lake-center-at-norm-s-fish-camp"
+          }
+        ],
+        "synopsis": "Aditi Brennan Kapil's play AGNES UNDER THE BIG TOP, A TALL TALE was first produced in a National New Play Network Rolling World Premiere at Mixed Blood Theatre (Minneapolis, MN), Long Wharf Theatre (New Haven, CT), and Borderlands (Tucson, AZ) with support from the Continued Life of New Plays Fund.  www.nnpn.org // Against the subterranean rhythms of a subway train, an itinerant subway busker, a Liberian home care worker, a former Bulgarian ringmaster and his wife, and an Indian call center escapee find and redefine themselves in today’s America. [Source: http://www.mixedblood.com/mainstage/agnes]",
+        "path": "/play/agnes-under-the-big-top-a-tall-tale?event=69991",
+        "longitude": "-77.027204",
+        "latitude": "38.996526",
+        "event_id": "69991",
+        "event_type": "Production",
+        "event_to_date": "Sep 28, 2013",
+        "event_date": "Sep 5, 2013",
+        "related_theater": "Forum Theatre",
+        "related_theater_path": "/organization/forum-theatre",
+        "related_theater_id": "54891",
+        "related_theater_has_location": true,
+        "related_play_id": "9344",
+        "related_play_path": "/play/agnes-under-the-big-top-a-tall-tale",
+        "event_description": "",
+        "city": "Silver Spring",
+        "state": "MD",
+        "city_state": "Silver Spring, MD",
+        "partner_organizations": [
+          {
+            "name": "National New Play Network",
+            "path": "/organization/national-new-play-network",
+            "has_location": true
+          },
+          {
+            "name": "Mixed Blood Theatre",
+            "path": "/organization/mixed-blood-theatre",
+            "has_location": true
+          },
+          {
+            "name": "Long Wharf Theatre",
+            "path": "/organization/long-wharf-theatre",
+            "has_location": true
+          },
+          {
+            "name": "Borderlands Theater ",
+            "path": "/organization/borderlands-theater",
+            "has_location": true
+          }
+        ]
+      }
+    },
+    {
+      "_id": {
+        "$id": "5665be86f6602036bbca5683"
+      },
+      "id": "10972",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-110.971909",
+          "32.220585"
+        ]
+      },
+      "properties": {
+        "play_id": "9344",
+        "content_type": "Event",
+        "artist_id": "9343",
+        "play_title": "Agnes Under the Big Top, a tall tale",
+        "play_title_display": "Agnes Under the Big Top, a tall tale",
+        "alternate_titles": [
+          {
+            "title": ""
+          }
+        ],
+        "generative_artist": "Aditi Brennan Kapil",
+        "generative_artist_path": "/artist/aditi-brennan-kapil",
+        "generative_artist_has_location": true,
+        "related_organizations": [
+          {
+            "name": "Arena Stage",
+            "path": "/organization/arena-stage"
+          },
+          {
+            "name": "Borderlands Theater",
+            "path": "/organization/borderlands-theater"
+          },
+          {
+            "name": "Forum Theatre",
+            "path": "/organization/forum-theatre"
+          },
+          {
+            "name": "InterAct Theatre Company",
+            "path": "/organization/interact-theatre-company"
+          },
+          {
+            "name": "Lark Play Development Center",
+            "path": "/organization/lark-play-development-center"
+          },
+          {
+            "name": "Long Wharf Theatre",
+            "path": "/organization/long-wharf-theatre"
+          },
+          {
+            "name": "Mixed Blood Theatre",
+            "path": "/organization/mixed-blood-theatre"
+          },
+          {
+            "name": "Rhodopi International Theatre Laboratory",
+            "path": "/organization/rhodopi-international-theatre-laboratory"
+          },
+          {
+            "name": "The Playwrights' Center",
+            "path": "/organization/the-playwrights-center"
+          },
+          {
+            "name": "Tofte Lake Center at Norm's Fish Camp",
+            "path": "/organization/tofte-lake-center-at-norm-s-fish-camp"
+          }
+        ],
+        "synopsis": "Aditi Brennan Kapil's play AGNES UNDER THE BIG TOP, A TALL TALE was first produced in a National New Play Network Rolling World Premiere at Mixed Blood Theatre (Minneapolis, MN), Long Wharf Theatre (New Haven, CT), and Borderlands (Tucson, AZ) with support from the Continued Life of New Plays Fund.  www.nnpn.org // Against the subterranean rhythms of a subway train, an itinerant subway busker, a Liberian home care worker, a former Bulgarian ringmaster and his wife, and an Indian call center escapee find and redefine themselves in today’s America. [Source: http://www.mixedblood.com/mainstage/agnes]",
+        "path": "/play/agnes-under-the-big-top-a-tall-tale?event=10972",
+        "longitude": "-110.971909",
+        "latitude": "32.220585",
+        "event_id": "10972",
+        "event_type": "Rolling Premiere",
+        "event_to_date": "Jan 30, 2012",
+        "event_date": "Jan 3, 2012",
+        "related_theater": "Borderlands Theater",
+        "related_theater_path": "/organization/borderlands-theater",
+        "related_theater_id": "8559",
+        "related_theater_has_location": true,
+        "related_play_id": "9344",
+        "related_play_path": "/play/agnes-under-the-big-top-a-tall-tale",
+        "event_description": "Aditi Kapil's AGNES UNDER THE BIG TOP, A TALL TALE was first produced as part of a National New Play Network Rolling World Premiere at Mixed Blood (Minneapolis, MN), Long Wharf Theatre (New Haven, CT), and Borderlands (Tucson, AZ) with funding from the Continued Life of New Plays Fund.\nwww.nnpn.org",
+        "city": "Tucson",
+        "state": "AZ",
+        "city_state": "Tucson, AZ",
+        "partner_organizations": [
+          {
+            "name": "National New Play Network",
+            "path": "/organization/national-new-play-network",
+            "has_location": true
+          },
+          {
+            "name": "Mixed Blood Theatre",
+            "path": "/organization/mixed-blood-theatre",
+            "has_location": true
+          },
+          {
+            "name": "Long Wharf Theatre",
+            "path": "/organization/long-wharf-theatre",
+            "has_location": true
+          },
+          {
+            "name": "Forum Theatre",
+            "path": "/organization/forum-theatre",
+            "has_location": true
+          }
+        ]
+      }
+    },
+    {
+      "_id": {
+        "$id": "5665be1ef6602036bbca55e2"
+      },
+      "id": "9351",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-72.920621",
+          "41.293108"
+        ]
+      },
+      "properties": {
+        "play_id": "9344",
+        "content_type": "Event",
+        "artist_id": "9343",
+        "play_title": "Agnes Under the Big Top, a tall tale",
+        "play_title_display": "Agnes Under the Big Top, a tall tale",
+        "alternate_titles": [
+          {
+            "title": ""
+          }
+        ],
+        "generative_artist": "Aditi Brennan Kapil",
+        "generative_artist_path": "/artist/aditi-brennan-kapil",
+        "generative_artist_has_location": true,
+        "related_organizations": [
+          {
+            "name": "Arena Stage",
+            "path": "/organization/arena-stage"
+          },
+          {
+            "name": "Borderlands Theater",
+            "path": "/organization/borderlands-theater"
+          },
+          {
+            "name": "Forum Theatre",
+            "path": "/organization/forum-theatre"
+          },
+          {
+            "name": "InterAct Theatre Company",
+            "path": "/organization/interact-theatre-company"
+          },
+          {
+            "name": "Lark Play Development Center",
+            "path": "/organization/lark-play-development-center"
+          },
+          {
+            "name": "Long Wharf Theatre",
+            "path": "/organization/long-wharf-theatre"
+          },
+          {
+            "name": "Mixed Blood Theatre",
+            "path": "/organization/mixed-blood-theatre"
+          },
+          {
+            "name": "Rhodopi International Theatre Laboratory",
+            "path": "/organization/rhodopi-international-theatre-laboratory"
+          },
+          {
+            "name": "The Playwrights' Center",
+            "path": "/organization/the-playwrights-center"
+          },
+          {
+            "name": "Tofte Lake Center at Norm's Fish Camp",
+            "path": "/organization/tofte-lake-center-at-norm-s-fish-camp"
+          }
+        ],
+        "synopsis": "Aditi Brennan Kapil's play AGNES UNDER THE BIG TOP, A TALL TALE was first produced in a National New Play Network Rolling World Premiere at Mixed Blood Theatre (Minneapolis, MN), Long Wharf Theatre (New Haven, CT), and Borderlands (Tucson, AZ) with support from the Continued Life of New Plays Fund.  www.nnpn.org // Against the subterranean rhythms of a subway train, an itinerant subway busker, a Liberian home care worker, a former Bulgarian ringmaster and his wife, and an Indian call center escapee find and redefine themselves in today’s America. [Source: http://www.mixedblood.com/mainstage/agnes]",
+        "path": "/play/agnes-under-the-big-top-a-tall-tale?event=9351",
+        "longitude": "-72.920621",
+        "latitude": "41.293108",
+        "event_id": "9351",
+        "event_type": "Rolling Premiere",
+        "event_to_date": "Apr 3, 2011",
+        "event_date": "Mar 2, 2011",
+        "related_theater": "Long Wharf Theatre",
+        "related_theater_path": "/organization/long-wharf-theatre",
+        "related_theater_id": "9350",
+        "related_theater_has_location": true,
+        "related_play_id": "9344",
+        "related_play_path": "/play/agnes-under-the-big-top-a-tall-tale",
+        "event_description": "East Coast Premiere of Aditi Brennan Kapil's new play 'Agnes Under the Big Top, a tall tale'",
+        "city": "New Haven",
+        "state": "CT",
+        "city_state": "New Haven, CT",
+        "partner_organizations": [
+          {
+            "name": "National New Play Network",
+            "path": "/organization/national-new-play-network",
+            "has_location": true
+          },
+          {
+            "name": "Mixed Blood Theatre",
+            "path": "/organization/mixed-blood-theatre",
+            "has_location": true
+          },
+          {
+            "name": "Borderlands Theater ",
+            "path": "/organization/borderlands-theater",
+            "has_location": true
+          },
+          {
+            "name": "Forum Theatre",
+            "path": "/organization/forum-theatre",
+            "has_location": true
+          }
+        ]
+      }
+    },
+    {
+      "_id": {
+        "$id": "5665be1ef6602036bbca55e1"
+      },
+      "id": "9348",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-93.249161",
+          "44.971010"
+        ]
+      },
+      "properties": {
+        "play_id": "9344",
+        "content_type": "Event",
+        "artist_id": "9343",
+        "play_title": "Agnes Under the Big Top, a tall tale",
+        "play_title_display": "Agnes Under the Big Top, a tall tale",
+        "alternate_titles": [
+          {
+            "title": ""
+          }
+        ],
+        "generative_artist": "Aditi Brennan Kapil",
+        "generative_artist_path": "/artist/aditi-brennan-kapil",
+        "generative_artist_has_location": true,
+        "related_organizations": [
+          {
+            "name": "Arena Stage",
+            "path": "/organization/arena-stage"
+          },
+          {
+            "name": "Borderlands Theater",
+            "path": "/organization/borderlands-theater"
+          },
+          {
+            "name": "Forum Theatre",
+            "path": "/organization/forum-theatre"
+          },
+          {
+            "name": "InterAct Theatre Company",
+            "path": "/organization/interact-theatre-company"
+          },
+          {
+            "name": "Lark Play Development Center",
+            "path": "/organization/lark-play-development-center"
+          },
+          {
+            "name": "Long Wharf Theatre",
+            "path": "/organization/long-wharf-theatre"
+          },
+          {
+            "name": "Mixed Blood Theatre",
+            "path": "/organization/mixed-blood-theatre"
+          },
+          {
+            "name": "Rhodopi International Theatre Laboratory",
+            "path": "/organization/rhodopi-international-theatre-laboratory"
+          },
+          {
+            "name": "The Playwrights' Center",
+            "path": "/organization/the-playwrights-center"
+          },
+          {
+            "name": "Tofte Lake Center at Norm's Fish Camp",
+            "path": "/organization/tofte-lake-center-at-norm-s-fish-camp"
+          }
+        ],
+        "synopsis": "Aditi Brennan Kapil's play AGNES UNDER THE BIG TOP, A TALL TALE was first produced in a National New Play Network Rolling World Premiere at Mixed Blood Theatre (Minneapolis, MN), Long Wharf Theatre (New Haven, CT), and Borderlands (Tucson, AZ) with support from the Continued Life of New Plays Fund.  www.nnpn.org // Against the subterranean rhythms of a subway train, an itinerant subway busker, a Liberian home care worker, a former Bulgarian ringmaster and his wife, and an Indian call center escapee find and redefine themselves in today’s America. [Source: http://www.mixedblood.com/mainstage/agnes]",
+        "path": "/play/agnes-under-the-big-top-a-tall-tale?event=9348",
+        "longitude": "-93.249161",
+        "latitude": "44.971010",
+        "event_id": "9348",
+        "event_type": "Rolling Premiere",
+        "event_to_date": "Mar 6, 2011",
+        "event_date": "Feb 18, 2011",
+        "related_theater": "Mixed Blood Theatre",
+        "related_theater_path": "/organization/mixed-blood-theatre",
+        "related_theater_id": "9345",
+        "related_theater_has_location": true,
+        "related_play_id": "9344",
+        "related_play_path": "/play/agnes-under-the-big-top-a-tall-tale",
+        "event_description": "World Premiere of Aditi Brennan Kapil's new play 'Agnes Under the Big Top'",
+        "city": "Minneapolis",
+        "state": "MN",
+        "city_state": "Minneapolis, MN",
+        "partner_organizations": [
+          {
+            "name": "National New Play Network",
+            "path": "/organization/national-new-play-network",
+            "has_location": true
+          },
+          {
+            "name": "Long Wharf Theatre",
+            "path": "/organization/long-wharf-theatre",
+            "has_location": true
+          },
+          {
+            "name": "Borderlands Theater ",
+            "path": "/organization/borderlands-theater",
+            "has_location": true
+          },
+          {
+            "name": "Forum Theatre",
+            "path": "/organization/forum-theatre",
+            "has_location": true
+          }
+        ]
+      }
+    },
+    {
+      "_id": {
+        "$id": "5665be1ef6602036bbca55e3"
+      },
+      "id": "9352",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-77.020721",
+          "38.877536"
+        ]
+      },
+      "properties": {
+        "play_id": "9344",
+        "content_type": "Event",
+        "artist_id": "9343",
+        "play_title": "Agnes Under the Big Top, a tall tale",
+        "play_title_display": "Agnes Under the Big Top, a tall tale",
+        "alternate_titles": [
+          {
+            "title": ""
+          }
+        ],
+        "generative_artist": "Aditi Brennan Kapil",
+        "generative_artist_path": "/artist/aditi-brennan-kapil",
+        "generative_artist_has_location": true,
+        "related_organizations": [
+          {
+            "name": "Arena Stage",
+            "path": "/organization/arena-stage"
+          },
+          {
+            "name": "Borderlands Theater",
+            "path": "/organization/borderlands-theater"
+          },
+          {
+            "name": "Forum Theatre",
+            "path": "/organization/forum-theatre"
+          },
+          {
+            "name": "InterAct Theatre Company",
+            "path": "/organization/interact-theatre-company"
+          },
+          {
+            "name": "Lark Play Development Center",
+            "path": "/organization/lark-play-development-center"
+          },
+          {
+            "name": "Long Wharf Theatre",
+            "path": "/organization/long-wharf-theatre"
+          },
+          {
+            "name": "Mixed Blood Theatre",
+            "path": "/organization/mixed-blood-theatre"
+          },
+          {
+            "name": "Rhodopi International Theatre Laboratory",
+            "path": "/organization/rhodopi-international-theatre-laboratory"
+          },
+          {
+            "name": "The Playwrights' Center",
+            "path": "/organization/the-playwrights-center"
+          },
+          {
+            "name": "Tofte Lake Center at Norm's Fish Camp",
+            "path": "/organization/tofte-lake-center-at-norm-s-fish-camp"
+          }
+        ],
+        "synopsis": "Aditi Brennan Kapil's play AGNES UNDER THE BIG TOP, A TALL TALE was first produced in a National New Play Network Rolling World Premiere at Mixed Blood Theatre (Minneapolis, MN), Long Wharf Theatre (New Haven, CT), and Borderlands (Tucson, AZ) with support from the Continued Life of New Plays Fund.  www.nnpn.org // Against the subterranean rhythms of a subway train, an itinerant subway busker, a Liberian home care worker, a former Bulgarian ringmaster and his wife, and an Indian call center escapee find and redefine themselves in today’s America. [Source: http://www.mixedblood.com/mainstage/agnes]",
+        "path": "/play/agnes-under-the-big-top-a-tall-tale?event=9352",
+        "longitude": "-77.020721",
+        "latitude": "38.877536",
+        "event_id": "9352",
+        "event_type": "Reading",
+        "event_to_date": "Jan 23, 2011",
+        "event_date": "Jan 22, 2011",
+        "related_theater": "Arena Stage",
+        "related_theater_path": "/organization/arena-stage",
+        "related_theater_id": "8220",
+        "related_theater_has_location": true,
+        "related_play_id": "9344",
+        "related_play_path": "/play/agnes-under-the-big-top-a-tall-tale",
+        "event_description": "#New Play Festival reading of 'Agnes Under the Big Top, a tall tale'",
+        "city": "Washington",
+        "state": "DC",
+        "city_state": "Washington, DC",
+        "partner_organizations": [
+          {
+            "name": "Mixed Blood Theatre",
+            "path": "/organization/mixed-blood-theatre",
+            "has_location": true
+          },
+          {
+            "name": "Long Wharf Theatre",
+            "path": "/organization/long-wharf-theatre",
+            "has_location": true
+          }
+        ]
+      }
+    },
+    {
+      "_id": {
+        "$id": "5665bea4f6602036bbca56b1"
+      },
+      "id": "11110",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-93.238971",
+          "44.962414"
+        ]
+      },
+      "properties": {
+        "play_id": "9344",
+        "content_type": "Event",
+        "artist_id": "9343",
+        "play_title": "Agnes Under the Big Top, a tall tale",
+        "play_title_display": "Agnes Under the Big Top, a tall tale",
+        "alternate_titles": [
+          {
+            "title": ""
+          }
+        ],
+        "generative_artist": "Aditi Brennan Kapil",
+        "generative_artist_path": "/artist/aditi-brennan-kapil",
+        "generative_artist_has_location": true,
+        "related_organizations": [
+          {
+            "name": "Arena Stage",
+            "path": "/organization/arena-stage"
+          },
+          {
+            "name": "Borderlands Theater",
+            "path": "/organization/borderlands-theater"
+          },
+          {
+            "name": "Forum Theatre",
+            "path": "/organization/forum-theatre"
+          },
+          {
+            "name": "InterAct Theatre Company",
+            "path": "/organization/interact-theatre-company"
+          },
+          {
+            "name": "Lark Play Development Center",
+            "path": "/organization/lark-play-development-center"
+          },
+          {
+            "name": "Long Wharf Theatre",
+            "path": "/organization/long-wharf-theatre"
+          },
+          {
+            "name": "Mixed Blood Theatre",
+            "path": "/organization/mixed-blood-theatre"
+          },
+          {
+            "name": "Rhodopi International Theatre Laboratory",
+            "path": "/organization/rhodopi-international-theatre-laboratory"
+          },
+          {
+            "name": "The Playwrights' Center",
+            "path": "/organization/the-playwrights-center"
+          },
+          {
+            "name": "Tofte Lake Center at Norm's Fish Camp",
+            "path": "/organization/tofte-lake-center-at-norm-s-fish-camp"
+          }
+        ],
+        "synopsis": "Aditi Brennan Kapil's play AGNES UNDER THE BIG TOP, A TALL TALE was first produced in a National New Play Network Rolling World Premiere at Mixed Blood Theatre (Minneapolis, MN), Long Wharf Theatre (New Haven, CT), and Borderlands (Tucson, AZ) with support from the Continued Life of New Plays Fund.  www.nnpn.org // Against the subterranean rhythms of a subway train, an itinerant subway busker, a Liberian home care worker, a former Bulgarian ringmaster and his wife, and an Indian call center escapee find and redefine themselves in today’s America. [Source: http://www.mixedblood.com/mainstage/agnes]",
+        "path": "/play/agnes-under-the-big-top-a-tall-tale?event=11110",
+        "longitude": "-93.238971",
+        "latitude": "44.962414",
+        "event_id": "11110",
+        "event_type": "Workshop",
+        "event_to_date": "Dec 17, 2010",
+        "event_date": "Dec 13, 2010",
+        "related_theater": "The Playwrights' Center",
+        "related_theater_path": "/organization/the-playwrights-center",
+        "related_theater_id": "8406",
+        "related_theater_has_location": true,
+        "related_play_id": "9344",
+        "related_play_path": "/play/agnes-under-the-big-top-a-tall-tale",
+        "event_description": "",
+        "city": "Minneapolis",
+        "state": "MN",
+        "city_state": "Minneapolis, MN",
+        "partner_organizations": [
+          {
+            "name": "Mixed Blood Theatre",
+            "path": "/organization/mixed-blood-theatre",
+            "has_location": true
+          }
+        ]
+      }
+    },
+    {
+      "_id": {
+        "$id": "5665bec9f6602036bbca56f8"
+      },
+      "id": "11372",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-73.990152",
+          "40.758343"
+        ]
+      },
+      "properties": {
+        "play_id": "9344",
+        "content_type": "Event",
+        "artist_id": "9343",
+        "play_title": "Agnes Under the Big Top, a tall tale",
+        "play_title_display": "Agnes Under the Big Top, a tall tale",
+        "alternate_titles": [
+          {
+            "title": ""
+          }
+        ],
+        "generative_artist": "Aditi Brennan Kapil",
+        "generative_artist_path": "/artist/aditi-brennan-kapil",
+        "generative_artist_has_location": true,
+        "related_organizations": [
+          {
+            "name": "Arena Stage",
+            "path": "/organization/arena-stage"
+          },
+          {
+            "name": "Borderlands Theater",
+            "path": "/organization/borderlands-theater"
+          },
+          {
+            "name": "Forum Theatre",
+            "path": "/organization/forum-theatre"
+          },
+          {
+            "name": "InterAct Theatre Company",
+            "path": "/organization/interact-theatre-company"
+          },
+          {
+            "name": "Lark Play Development Center",
+            "path": "/organization/lark-play-development-center"
+          },
+          {
+            "name": "Long Wharf Theatre",
+            "path": "/organization/long-wharf-theatre"
+          },
+          {
+            "name": "Mixed Blood Theatre",
+            "path": "/organization/mixed-blood-theatre"
+          },
+          {
+            "name": "Rhodopi International Theatre Laboratory",
+            "path": "/organization/rhodopi-international-theatre-laboratory"
+          },
+          {
+            "name": "The Playwrights' Center",
+            "path": "/organization/the-playwrights-center"
+          },
+          {
+            "name": "Tofte Lake Center at Norm's Fish Camp",
+            "path": "/organization/tofte-lake-center-at-norm-s-fish-camp"
+          }
+        ],
+        "synopsis": "Aditi Brennan Kapil's play AGNES UNDER THE BIG TOP, A TALL TALE was first produced in a National New Play Network Rolling World Premiere at Mixed Blood Theatre (Minneapolis, MN), Long Wharf Theatre (New Haven, CT), and Borderlands (Tucson, AZ) with support from the Continued Life of New Plays Fund.  www.nnpn.org // Against the subterranean rhythms of a subway train, an itinerant subway busker, a Liberian home care worker, a former Bulgarian ringmaster and his wife, and an Indian call center escapee find and redefine themselves in today’s America. [Source: http://www.mixedblood.com/mainstage/agnes]",
+        "path": "/play/agnes-under-the-big-top-a-tall-tale?event=11372",
+        "longitude": "-73.990152",
+        "latitude": "40.758343",
+        "event_id": "11372",
+        "event_type": "Workshop",
+        "event_to_date": "Oct 30, 2009",
+        "event_date": "Oct 26, 2009",
+        "related_theater": "Lark Play Development Center",
+        "related_theater_path": "/organization/lark-play-development-center",
+        "related_theater_id": "8699",
+        "related_theater_has_location": true,
+        "related_play_id": "9344",
+        "related_play_path": "/play/agnes-under-the-big-top-a-tall-tale",
+        "event_description": "Workshop with actors, Director Eric Ting, Dramaturg Liz Engelman",
+        "city": "New York",
+        "state": "NY",
+        "city_state": "New York, NY",
+        "partner_organizations": [
+          {
+            "name": "Mixed Blood Theatre",
+            "path": "/organization/mixed-blood-theatre",
+            "has_location": true
+          }
+        ]
+      }
+    },
+    {
+      "_id": {
+        "$id": "5665c015f6602036bbca5940"
+      },
+      "id": "33902",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-73.990152",
+          "40.758343"
+        ]
+      },
+      "properties": {
+        "play_id": "9344",
+        "content_type": "Event",
+        "artist_id": "9343",
+        "play_title": "Agnes Under the Big Top, a tall tale",
+        "play_title_display": "Agnes Under the Big Top, a tall tale",
+        "alternate_titles": [
+          {
+            "title": ""
+          }
+        ],
+        "generative_artist": "Aditi Brennan Kapil",
+        "generative_artist_path": "/artist/aditi-brennan-kapil",
+        "generative_artist_has_location": true,
+        "related_organizations": [
+          {
+            "name": "Arena Stage",
+            "path": "/organization/arena-stage"
+          },
+          {
+            "name": "Borderlands Theater",
+            "path": "/organization/borderlands-theater"
+          },
+          {
+            "name": "Forum Theatre",
+            "path": "/organization/forum-theatre"
+          },
+          {
+            "name": "InterAct Theatre Company",
+            "path": "/organization/interact-theatre-company"
+          },
+          {
+            "name": "Lark Play Development Center",
+            "path": "/organization/lark-play-development-center"
+          },
+          {
+            "name": "Long Wharf Theatre",
+            "path": "/organization/long-wharf-theatre"
+          },
+          {
+            "name": "Mixed Blood Theatre",
+            "path": "/organization/mixed-blood-theatre"
+          },
+          {
+            "name": "Rhodopi International Theatre Laboratory",
+            "path": "/organization/rhodopi-international-theatre-laboratory"
+          },
+          {
+            "name": "The Playwrights' Center",
+            "path": "/organization/the-playwrights-center"
+          },
+          {
+            "name": "Tofte Lake Center at Norm's Fish Camp",
+            "path": "/organization/tofte-lake-center-at-norm-s-fish-camp"
+          }
+        ],
+        "synopsis": "Aditi Brennan Kapil's play AGNES UNDER THE BIG TOP, A TALL TALE was first produced in a National New Play Network Rolling World Premiere at Mixed Blood Theatre (Minneapolis, MN), Long Wharf Theatre (New Haven, CT), and Borderlands (Tucson, AZ) with support from the Continued Life of New Plays Fund.  www.nnpn.org // Against the subterranean rhythms of a subway train, an itinerant subway busker, a Liberian home care worker, a former Bulgarian ringmaster and his wife, and an Indian call center escapee find and redefine themselves in today’s America. [Source: http://www.mixedblood.com/mainstage/agnes]",
+        "path": "/play/agnes-under-the-big-top-a-tall-tale?event=33902",
+        "longitude": "-73.990152",
+        "latitude": "40.758343",
+        "event_id": "33902",
+        "event_type": "Reading",
+        "event_to_date": "Sep 30, 2009",
+        "event_date": "Sep 29, 2009",
+        "related_theater": "Lark Play Development Center",
+        "related_theater_path": "/organization/lark-play-development-center",
+        "related_theater_id": "8699",
+        "related_theater_has_location": true,
+        "related_play_id": "9344",
+        "related_play_path": "/play/agnes-under-the-big-top-a-tall-tale",
+        "event_description": "",
+        "city": "New York",
+        "state": "NY",
+        "city_state": "New York, NY",
+        "partner_organizations": null
+      }
+    },
+    {
+      "_id": {
+        "$id": "5665d091f6602036bbca6e21"
+      },
+      "id": "134664",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "24.714719",
+          "41.574533"
+        ]
+      },
+      "properties": {
+        "play_id": "9344",
+        "content_type": "Event",
+        "artist_id": "9343",
+        "play_title": "Agnes Under the Big Top, a tall tale",
+        "play_title_display": "Agnes Under the Big Top, a tall tale",
+        "alternate_titles": [
+          {
+            "title": ""
+          }
+        ],
+        "generative_artist": "Aditi Brennan Kapil",
+        "generative_artist_path": "/artist/aditi-brennan-kapil",
+        "generative_artist_has_location": true,
+        "related_organizations": [
+          {
+            "name": "Arena Stage",
+            "path": "/organization/arena-stage"
+          },
+          {
+            "name": "Borderlands Theater",
+            "path": "/organization/borderlands-theater"
+          },
+          {
+            "name": "Forum Theatre",
+            "path": "/organization/forum-theatre"
+          },
+          {
+            "name": "InterAct Theatre Company",
+            "path": "/organization/interact-theatre-company"
+          },
+          {
+            "name": "Lark Play Development Center",
+            "path": "/organization/lark-play-development-center"
+          },
+          {
+            "name": "Long Wharf Theatre",
+            "path": "/organization/long-wharf-theatre"
+          },
+          {
+            "name": "Mixed Blood Theatre",
+            "path": "/organization/mixed-blood-theatre"
+          },
+          {
+            "name": "Rhodopi International Theatre Laboratory",
+            "path": "/organization/rhodopi-international-theatre-laboratory"
+          },
+          {
+            "name": "The Playwrights' Center",
+            "path": "/organization/the-playwrights-center"
+          },
+          {
+            "name": "Tofte Lake Center at Norm's Fish Camp",
+            "path": "/organization/tofte-lake-center-at-norm-s-fish-camp"
+          }
+        ],
+        "synopsis": "Aditi Brennan Kapil's play AGNES UNDER THE BIG TOP, A TALL TALE was first produced in a National New Play Network Rolling World Premiere at Mixed Blood Theatre (Minneapolis, MN), Long Wharf Theatre (New Haven, CT), and Borderlands (Tucson, AZ) with support from the Continued Life of New Plays Fund.  www.nnpn.org // Against the subterranean rhythms of a subway train, an itinerant subway busker, a Liberian home care worker, a former Bulgarian ringmaster and his wife, and an Indian call center escapee find and redefine themselves in today’s America. [Source: http://www.mixedblood.com/mainstage/agnes]",
+        "path": "/play/agnes-under-the-big-top-a-tall-tale?event=134664",
+        "longitude": "24.714719",
+        "latitude": "41.574533",
+        "event_id": "134664",
+        "event_type": "Workshop",
+        "event_to_date": "Aug 14, 2009",
+        "event_date": "Jun 29, 2009",
+        "related_theater": "Rhodopi International Theatre Laboratory",
+        "related_theater_path": "/organization/rhodopi-international-theatre-laboratory",
+        "related_theater_id": "11377",
+        "related_theater_has_location": false,
+        "related_play_id": "9344",
+        "related_play_path": "/play/agnes-under-the-big-top-a-tall-tale",
+        "event_description": "",
+        "city": "Smolyan",
+        "state": "",
+        "city_state": "",
+        "partner_organizations": [
+          {
+            "name": "Mixed Blood Theatre",
+            "path": "/organization/mixed-blood-theatre",
+            "has_location": true
+          },
+          {
+            "name": "Lark Play Development Center",
+            "path": "/organization/lark-play-development-center",
+            "has_location": true
+          }
+        ]
+      }
+    },
+    {
+      "_id": {
+        "$id": "5665bea7f6602036bbca56b9"
+      },
+      "id": "11174",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-75.174646",
+          "39.951438"
+        ]
+      },
+      "properties": {
+        "play_id": "9344",
+        "content_type": "Event",
+        "artist_id": "9343",
+        "play_title": "Agnes Under the Big Top, a tall tale",
+        "play_title_display": "Agnes Under the Big Top, a tall tale",
+        "alternate_titles": [
+          {
+            "title": ""
+          }
+        ],
+        "generative_artist": "Aditi Brennan Kapil",
+        "generative_artist_path": "/artist/aditi-brennan-kapil",
+        "generative_artist_has_location": true,
+        "related_organizations": [
+          {
+            "name": "Arena Stage",
+            "path": "/organization/arena-stage"
+          },
+          {
+            "name": "Borderlands Theater",
+            "path": "/organization/borderlands-theater"
+          },
+          {
+            "name": "Forum Theatre",
+            "path": "/organization/forum-theatre"
+          },
+          {
+            "name": "InterAct Theatre Company",
+            "path": "/organization/interact-theatre-company"
+          },
+          {
+            "name": "Lark Play Development Center",
+            "path": "/organization/lark-play-development-center"
+          },
+          {
+            "name": "Long Wharf Theatre",
+            "path": "/organization/long-wharf-theatre"
+          },
+          {
+            "name": "Mixed Blood Theatre",
+            "path": "/organization/mixed-blood-theatre"
+          },
+          {
+            "name": "Rhodopi International Theatre Laboratory",
+            "path": "/organization/rhodopi-international-theatre-laboratory"
+          },
+          {
+            "name": "The Playwrights' Center",
+            "path": "/organization/the-playwrights-center"
+          },
+          {
+            "name": "Tofte Lake Center at Norm's Fish Camp",
+            "path": "/organization/tofte-lake-center-at-norm-s-fish-camp"
+          }
+        ],
+        "synopsis": "Aditi Brennan Kapil's play AGNES UNDER THE BIG TOP, A TALL TALE was first produced in a National New Play Network Rolling World Premiere at Mixed Blood Theatre (Minneapolis, MN), Long Wharf Theatre (New Haven, CT), and Borderlands (Tucson, AZ) with support from the Continued Life of New Plays Fund.  www.nnpn.org // Against the subterranean rhythms of a subway train, an itinerant subway busker, a Liberian home care worker, a former Bulgarian ringmaster and his wife, and an Indian call center escapee find and redefine themselves in today’s America. [Source: http://www.mixedblood.com/mainstage/agnes]",
+        "path": "/play/agnes-under-the-big-top-a-tall-tale?event=11174",
+        "longitude": "-75.174646",
+        "latitude": "39.951438",
+        "event_id": "11174",
+        "event_type": "Workshop",
+        "event_to_date": "Apr 26, 2009",
+        "event_date": "Apr 26, 2009",
+        "related_theater": "InterAct Theatre Company",
+        "related_theater_path": "/organization/interact-theatre-company",
+        "related_theater_id": "9802",
+        "related_theater_has_location": true,
+        "related_play_id": "9344",
+        "related_play_path": "/play/agnes-under-the-big-top-a-tall-tale",
+        "event_description": "This is a design retreat with playwright Aditi Kapil and designers involved with Agnes Under the Big Top",
+        "city": "Philadelphia",
+        "state": "PA",
+        "city_state": "Philadelphia, PA",
+        "partner_organizations": null
+      }
+    },
+    {
+      "_id": {
+        "$id": "5665beb3f6602036bbca56d6"
+      },
+      "id": "11283",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-93.238971",
+          "44.962414"
+        ]
+      },
+      "properties": {
+        "play_id": "9344",
+        "content_type": "Event",
+        "artist_id": "9343",
+        "play_title": "Agnes Under the Big Top, a tall tale",
+        "play_title_display": "Agnes Under the Big Top, a tall tale",
+        "alternate_titles": [
+          {
+            "title": ""
+          }
+        ],
+        "generative_artist": "Aditi Brennan Kapil",
+        "generative_artist_path": "/artist/aditi-brennan-kapil",
+        "generative_artist_has_location": true,
+        "related_organizations": [
+          {
+            "name": "Arena Stage",
+            "path": "/organization/arena-stage"
+          },
+          {
+            "name": "Borderlands Theater",
+            "path": "/organization/borderlands-theater"
+          },
+          {
+            "name": "Forum Theatre",
+            "path": "/organization/forum-theatre"
+          },
+          {
+            "name": "InterAct Theatre Company",
+            "path": "/organization/interact-theatre-company"
+          },
+          {
+            "name": "Lark Play Development Center",
+            "path": "/organization/lark-play-development-center"
+          },
+          {
+            "name": "Long Wharf Theatre",
+            "path": "/organization/long-wharf-theatre"
+          },
+          {
+            "name": "Mixed Blood Theatre",
+            "path": "/organization/mixed-blood-theatre"
+          },
+          {
+            "name": "Rhodopi International Theatre Laboratory",
+            "path": "/organization/rhodopi-international-theatre-laboratory"
+          },
+          {
+            "name": "The Playwrights' Center",
+            "path": "/organization/the-playwrights-center"
+          },
+          {
+            "name": "Tofte Lake Center at Norm's Fish Camp",
+            "path": "/organization/tofte-lake-center-at-norm-s-fish-camp"
+          }
+        ],
+        "synopsis": "Aditi Brennan Kapil's play AGNES UNDER THE BIG TOP, A TALL TALE was first produced in a National New Play Network Rolling World Premiere at Mixed Blood Theatre (Minneapolis, MN), Long Wharf Theatre (New Haven, CT), and Borderlands (Tucson, AZ) with support from the Continued Life of New Plays Fund.  www.nnpn.org // Against the subterranean rhythms of a subway train, an itinerant subway busker, a Liberian home care worker, a former Bulgarian ringmaster and his wife, and an Indian call center escapee find and redefine themselves in today’s America. [Source: http://www.mixedblood.com/mainstage/agnes]",
+        "path": "/play/agnes-under-the-big-top-a-tall-tale?event=11283",
+        "longitude": "-93.238971",
+        "latitude": "44.962414",
+        "event_id": "11283",
+        "event_type": "Workshop",
+        "event_to_date": "Feb 2, 2009",
+        "event_date": "Jan 30, 2009",
+        "related_theater": "The Playwrights' Center",
+        "related_theater_path": "/organization/the-playwrights-center",
+        "related_theater_id": "8406",
+        "related_theater_has_location": true,
+        "related_play_id": "9344",
+        "related_play_path": "/play/agnes-under-the-big-top-a-tall-tale",
+        "event_description": "The Playwrights' Center's Ruth Easton New Play Series workshop and reading of AGNES UNDER THE BIG TOP.",
+        "city": "Minneapolis",
+        "state": "MN",
+        "city_state": "Minneapolis, MN",
+        "partner_organizations": null
+      }
+    },
+    {
+      "_id": {
+        "$id": "5665bea3f6602036bbca56b0"
+      },
+      "id": "11109",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-73.990152",
+          "40.758343"
+        ]
+      },
+      "properties": {
+        "play_id": "9344",
+        "content_type": "Event",
+        "artist_id": "9343",
+        "play_title": "Agnes Under the Big Top, a tall tale",
+        "play_title_display": "Agnes Under the Big Top, a tall tale",
+        "alternate_titles": [
+          {
+            "title": ""
+          }
+        ],
+        "generative_artist": "Aditi Brennan Kapil",
+        "generative_artist_path": "/artist/aditi-brennan-kapil",
+        "generative_artist_has_location": true,
+        "related_organizations": [
+          {
+            "name": "Arena Stage",
+            "path": "/organization/arena-stage"
+          },
+          {
+            "name": "Borderlands Theater",
+            "path": "/organization/borderlands-theater"
+          },
+          {
+            "name": "Forum Theatre",
+            "path": "/organization/forum-theatre"
+          },
+          {
+            "name": "InterAct Theatre Company",
+            "path": "/organization/interact-theatre-company"
+          },
+          {
+            "name": "Lark Play Development Center",
+            "path": "/organization/lark-play-development-center"
+          },
+          {
+            "name": "Long Wharf Theatre",
+            "path": "/organization/long-wharf-theatre"
+          },
+          {
+            "name": "Mixed Blood Theatre",
+            "path": "/organization/mixed-blood-theatre"
+          },
+          {
+            "name": "Rhodopi International Theatre Laboratory",
+            "path": "/organization/rhodopi-international-theatre-laboratory"
+          },
+          {
+            "name": "The Playwrights' Center",
+            "path": "/organization/the-playwrights-center"
+          },
+          {
+            "name": "Tofte Lake Center at Norm's Fish Camp",
+            "path": "/organization/tofte-lake-center-at-norm-s-fish-camp"
+          }
+        ],
+        "synopsis": "Aditi Brennan Kapil's play AGNES UNDER THE BIG TOP, A TALL TALE was first produced in a National New Play Network Rolling World Premiere at Mixed Blood Theatre (Minneapolis, MN), Long Wharf Theatre (New Haven, CT), and Borderlands (Tucson, AZ) with support from the Continued Life of New Plays Fund.  www.nnpn.org // Against the subterranean rhythms of a subway train, an itinerant subway busker, a Liberian home care worker, a former Bulgarian ringmaster and his wife, and an Indian call center escapee find and redefine themselves in today’s America. [Source: http://www.mixedblood.com/mainstage/agnes]",
+        "path": "/play/agnes-under-the-big-top-a-tall-tale?event=11109",
+        "longitude": "-73.990152",
+        "latitude": "40.758343",
+        "event_id": "11109",
+        "event_type": "Reading",
+        "event_to_date": "Dec 11, 2008",
+        "event_date": "Dec 11, 2008",
+        "related_theater": "Lark Play Development Center",
+        "related_theater_path": "/organization/lark-play-development-center",
+        "related_theater_id": "8699",
+        "related_theater_has_location": true,
+        "related_play_id": "9344",
+        "related_play_path": "/play/agnes-under-the-big-top-a-tall-tale",
+        "event_description": "",
+        "city": "New York",
+        "state": "NY",
+        "city_state": "New York, NY",
+        "partner_organizations": null
+      }
+    },
+    {
+      "_id": {
+        "$id": "5665bf37f6602036bbca57c2"
+      },
+      "id": "18550",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-91.791349",
+          "47.926314"
+        ]
+      },
+      "properties": {
+        "play_id": "9344",
+        "content_type": "Event",
+        "artist_id": "9343",
+        "play_title": "Agnes Under the Big Top, a tall tale",
+        "play_title_display": "Agnes Under the Big Top, a tall tale",
+        "alternate_titles": [
+          {
+            "title": ""
+          }
+        ],
+        "generative_artist": "Aditi Brennan Kapil",
+        "generative_artist_path": "/artist/aditi-brennan-kapil",
+        "generative_artist_has_location": true,
+        "related_organizations": [
+          {
+            "name": "Arena Stage",
+            "path": "/organization/arena-stage"
+          },
+          {
+            "name": "Borderlands Theater",
+            "path": "/organization/borderlands-theater"
+          },
+          {
+            "name": "Forum Theatre",
+            "path": "/organization/forum-theatre"
+          },
+          {
+            "name": "InterAct Theatre Company",
+            "path": "/organization/interact-theatre-company"
+          },
+          {
+            "name": "Lark Play Development Center",
+            "path": "/organization/lark-play-development-center"
+          },
+          {
+            "name": "Long Wharf Theatre",
+            "path": "/organization/long-wharf-theatre"
+          },
+          {
+            "name": "Mixed Blood Theatre",
+            "path": "/organization/mixed-blood-theatre"
+          },
+          {
+            "name": "Rhodopi International Theatre Laboratory",
+            "path": "/organization/rhodopi-international-theatre-laboratory"
+          },
+          {
+            "name": "The Playwrights' Center",
+            "path": "/organization/the-playwrights-center"
+          },
+          {
+            "name": "Tofte Lake Center at Norm's Fish Camp",
+            "path": "/organization/tofte-lake-center-at-norm-s-fish-camp"
+          }
+        ],
+        "synopsis": "Aditi Brennan Kapil's play AGNES UNDER THE BIG TOP, A TALL TALE was first produced in a National New Play Network Rolling World Premiere at Mixed Blood Theatre (Minneapolis, MN), Long Wharf Theatre (New Haven, CT), and Borderlands (Tucson, AZ) with support from the Continued Life of New Plays Fund.  www.nnpn.org // Against the subterranean rhythms of a subway train, an itinerant subway busker, a Liberian home care worker, a former Bulgarian ringmaster and his wife, and an Indian call center escapee find and redefine themselves in today’s America. [Source: http://www.mixedblood.com/mainstage/agnes]",
+        "path": "/play/agnes-under-the-big-top-a-tall-tale?event=18550",
+        "longitude": "-91.791349",
+        "latitude": "47.926314",
+        "event_id": "18550",
+        "event_type": "Residency",
+        "event_to_date": "Jun 13, 2008",
+        "event_date": "Jun 9, 2008",
+        "related_theater": "Tofte Lake Center at Norm's Fish Camp",
+        "related_theater_path": "/organization/tofte-lake-center-at-norm-s-fish-camp",
+        "related_theater_id": "18549",
+        "related_theater_has_location": true,
+        "related_play_id": "9344",
+        "related_play_path": "/play/agnes-under-the-big-top-a-tall-tale",
+        "event_description": "A summer retreat/residency. Wrote first few scenes of 'The Starling Project', which would become 'Agnes Under the Big Top, a tall tale'.",
+        "city": "Ely",
+        "state": "MN",
+        "city_state": "Ely, MN",
+        "partner_organizations": null
+      }
+    }
+  ]
+}

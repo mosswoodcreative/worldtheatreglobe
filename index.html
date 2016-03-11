@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+body {
+  background-color: #fff8f5;
+}
+
+h1 {
+  width: 600px;
+  text-align: center;
+  position: absolute;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: rgba(256,256,256,.5);
+  padding: 10px 0;
+  margin-top: 0;
+}
+
+h2 {
+  position: absolute;
+  top: 310px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  width: 600px;
+}
+
+</style>
+<h1>What's happening today</h1>
+<h2></h2>
+<script src="//d3js.org/d3.v3.min.js"></script>
+<script src="//d3js.org/queue.v1.min.js"></script>
+<script src="//d3js.org/topojson.v1.min.js"></script>
+<script>
+
+var width = 740,
+    height = 740;
+
+var projection = d3.geo.orthographic()
+    .translate([width / 2, height / 2])
+    .scale(width / 2 - 20)
+    .clipAngle(90)
+    .precision(0.6);
+
+var graticule = d3.geo.graticule();
+
+var canvas = d3.select("body").append("canvas")
+    .attr("width", width)
+    .attr("height", height);
+
+var c = canvas.node().getContext("2d");
+
+var path = d3.geo.path()
+    .projection(projection)
+    .context(c);
+
+var title = d3.select("h2");
+
+queue()
+    .defer(d3.json, "world-110m.json")
+    // .defer(d3.json, "agnes.json")
+    .defer(d3.json, "jan-24-2016.json")
+    // .defer(d3.json, "2015-to-infinity.json")
+    .defer(d3.tsv, "world-country-names.tsv")
+    .await(ready);
+
+function ready(error, world, events, names) {
+  if (error) throw error;
+
+  var globe = {type: "Sphere"};
+  var land = topojson.feature(world, world.objects.land);
+  var grid = graticule();
+      // countries = topojson.feature(world, world.objects.countries).features,
+  var borders = topojson.mesh(world, world.objects.countries, function(a, b) { return a !== b; });
+  var i = -1;
+  var n = events.features.length;
+
+  // countries = countries.filter(function(d) {
+  //   return names.some(function(n) {
+  //     if (d.id == n.id) return d.name = n.name;
+  //   });
+  // }).sort(function(a, b) {
+  //   return a.name.localeCompare(b.name);
+  // });
+
+  (function transition() {
+    d3.transition()
+        .duration(1250)
+        .each("start", function() {
+          title.text(events.features[i = (i + 1) % n].properties.play_title);
+          // title.text(events.features[i = (i + 1) % n].properties.related_theater);
+        })
+        .tween("rotate", function() {
+          var p = d3.geo.centroid(events.features[i]),
+              r = d3.interpolate(projection.rotate(), [-p[0], -p[1]]);
+          return function(t) {
+            projection.rotate(r(t)).clipAngle(90);;
+            c.clearRect(0, 0, width, height);
+
+            // Globe background
+            c.fillStyle = "#fff8f5";
+            c.beginPath();
+            path(globe);
+            c.fill();
+
+            // Background Continents
+            projection.clipAngle(180);
+            c.fillStyle = "#77d0c9";
+            c.strokeStyle = "#77d0c9";
+            c.lineWidth = .5;
+            c.beginPath();
+            path(land);
+            c.stroke();
+            c.fill();
+
+            // Background dots
+            projection.clipAngle(180);
+            c.fillStyle = "rgba(54, 54, 54, 0.5)";
+            c.beginPath();
+            path(events);
+            c.fill();
+
+            // Background Grid
+            projection.clipAngle(180);
+            // c.strokeStyle = "#deffff";
+            c.strokeStyle = "#68d3c84";
+            c.lineWidth = .25;
+            c.beginPath();
+            path(grid);
+            c.stroke();
+
+            // Foreground Grid
+            projection.clipAngle(90);
+            // c.strokeStyle = "#ffffff";
+            c.strokeStyle = "#68d3c8";
+            c.lineWidth = 0.75;
+            c.beginPath();
+            path(grid);
+            c.stroke();
+
+            // Continents
+            projection.clipAngle(90);
+            c.fillStyle = "#50b2aa";
+            c.beginPath();
+            path(land);
+            c.fill();
+
+            // Foreground borders
+            c.strokeStyle = "#50b2aa";
+            c.lineWidth = .5;
+            c.beginPath();
+            path(borders);
+            c.stroke();
+
+
+            // Other dots
+            projection.clipAngle(90);
+            c.fillStyle = "rgba(54, 54, 54, 0.5)";
+            c.beginPath();
+            path(events);
+            c.fill();
+
+            // Dot
+            c.fillStyle = "#ef4606";
+            c.beginPath();
+            path(events.features[i]);
+            c.fill();
+
+            // Globe outline
+            c.strokeStyle = "#20A09";
+            c.lineWidth = 2;
+            c.beginPath();
+            path(globe);
+            c.stroke();
+
+          };
+        })
+      .transition()
+        .each("end", transition);
+  })();
+}
+
+d3.select(self.frameElement).style("height", height + "px");
+
+</script>
