@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width" />
 <style>
 
 body {
   background-color: #fff8f5;
   /*text-align: center;*/
-  min-width: 740px;
   position: relative;
+  margin: 0;
 }
 
 .content {
@@ -31,24 +32,36 @@ h1 {
 }
 
 .event-info-wrapper {
-  position: absolute;
-  /*top: 425px;*/
-/*  top: 370px;
-  left: 370px;*/
+  position: fixed;
+  bottom: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
-  /*text-align: center;*/
-/*  width: 100%;
-  min-width: 740px;*/
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 .event-info {
   text-align: left;
-  width: 215px;
-  margin: auto;
   background-color: white;
   padding: 8px;
+  margin: 5px;
   border: black 1px solid;
+}
+
+
+@media (min-width: 500px) {
+  .event-info-wrapper {
+    position: absolute;
+    top: 60%;
+    bottom: inherit;
+    text-align: center;
+  }
+
+  .event-info {
+    margin: auto;
+    width: 215px;
+  }
 }
 
 </style>
@@ -63,15 +76,30 @@ h1 {
 
 var actualWidth = window.innerWidth,
     actualHeight = window.innerHeight;
+var circle,
+    heightOffset,
+    orientation;
 
-var circle = (actualHeight < actualWidth) ? actualHeight : actualWidth;
+if (actualHeight < actualWidth) {
+  circle = actualHeight;
+  heightOffset = 40;
+  orientation = 'horizontal';
+}
+else {
+  circle = actualWidth;
+  heightOffset = 120;
+  orientation = 'vertical';
+}
 circle = circle - 60;
+
+// var circle = (actualHeight < actualWidth) ? actualHeight : actualWidth;
 
 var width = circle,
     height = circle;
 
+
 var projection = d3.geo.orthographic()
-    .translate([actualWidth / 2, actualHeight / 2 - 40])
+    .translate([actualWidth / 2, actualHeight / 2 - heightOffset])
     .scale(width / 2 - 20)
     .clipAngle(90)
     .precision(0.6);
@@ -151,11 +179,13 @@ function ready(error, world, events, names) {
             // console.log(projection(events.features[i].geometry.coordinates));
           return function(t) {
             // var center = projection(r(t));
-            var nextPoint = projection(p);
-            var nextPointLeft = (nextPoint[0] - (215 / 2)) + "px";
-            var nextPointTop = (nextPoint[1] + 15 + 60) + "px";
-            eventInfoWrapper.style("left", nextPointLeft);
-            eventInfoWrapper.style("top", nextPointTop);
+
+            // Make text box track the point as it moves
+            // var nextPoint = projection(p);
+            // var nextPointLeft = (nextPoint[0] - (215 / 2)) + "px";
+            // var nextPointTop = (nextPoint[1] + 15 + 60) + "px";
+            // eventInfoWrapper.style("left", nextPointLeft);
+            // eventInfoWrapper.style("top", nextPointTop);
 
             projection.rotate(r(t)).clipAngle(90);;
             c.clearRect(0, 0, actualWidth, actualHeight);
