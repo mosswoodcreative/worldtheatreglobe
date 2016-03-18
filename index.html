@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width" />
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 <style>
 
 body {
   background-color: #fff8f5;
+  font-family: 'Open Sans', sans-serif;
   /*text-align: center;*/
   position: relative;
   margin: 0;
@@ -31,7 +33,6 @@ a:hover {
 }
 
 h1 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #000;
   padding: 10px;
   color: #FFF;
@@ -43,7 +44,6 @@ h1 {
 .event-info-wrapper {
   position: fixed;
   bottom: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   width: 100%;
   padding: 0;
@@ -87,6 +87,7 @@ h1 {
 
 .results-item-title {
   font-size: 18px;
+  font-weight: bold;
 }
 
 
@@ -142,7 +143,11 @@ var path = d3.geo.path()
     .projection(projection)
     .context(c);
 
-var title = d3.select(".event-info");
+var title = d3.select(".event-info").on("mouseover", function() {
+  // console.log('puse');
+  // Set a variable, then check in on line 302.
+  // call transition() to start again.
+});
 var eventInfoWrapper = d3.select(".event-info-wrapper");
 
 var start = moment().format('MMMM+DD+YYYY');
@@ -296,6 +301,7 @@ function ready(error, world, events, names) {
         })
       .transition()
         .each("end", transition);
+        // .each("end", function() { if (this.__transition__.count < 2) transition(); });
   })();
 }
 
