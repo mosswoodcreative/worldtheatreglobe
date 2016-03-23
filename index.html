@@ -156,9 +156,9 @@ var end = moment().format('MMMM+DD+YYYY');
 queue()
     .defer(d3.json, "world-110m.json")
     // .defer(d3.json, "agnes.json")
-    // .defer(d3.json, "//newplaymap.org/api/events_filter.php?end_date=" + end + "&start_date=" + start + "&highlight=off")
+    .defer(d3.json, "//newplaymap.org/api/events_filter.php?end_date=" + end + "&start_date=" + start + "&highlight=off")
     // .defer(d3.json, "//npm.colin/api/events_filter.php?end_date=" + end + "&start_date=" + start + "&highlight=off")
-    .defer(d3.json, "jan-24-2016.json")
+    // .defer(d3.json, "jan-24-2016.json")
     // .defer(d3.json, "2015-to-infinity.json")
     .defer(d3.tsv, "world-country-names.tsv")
     .await(ready);
@@ -198,7 +198,7 @@ function ready(error, world, events, names) {
           var generative_artist_path = events.features[i].properties.generative_artist_path;
           var city_state = events.features[i].properties.city_state;
 
-          var eventInfo = '<div class="results-item-content"><div class="event-type">' + event_type + '</div><a class="results-item-title" href="http://newplaymap.org' + related_play_path + '">' + play_title_display + '</a><div class="artist-name">by <a href="http://newplaymap.org' + generative_artist_path + '">' + generative_artist + '</a></div><a href="http://newplaymap.org' + related_theater_path + '"">' + related_theater + '</a><div class="results-location">' + city_state + '</div><div class="date">' + event_date + ' - ' + event_to_date + '</div></div>';
+          var eventInfo = '<div class="results-item-content"><div class="event-type">' + event_type + '</div><a class="results-item-title" href="http://newplaymap.org/participate' + related_play_path + '">' + play_title_display + '</a><div class="artist-name">by <a href="http://newplaymap.org/participate' + generative_artist_path + '">' + generative_artist + '</a></div><a href="http://newplaymap.org/participate' + related_theater_path + '"">' + related_theater + '</a><div class="results-location">' + city_state + '</div><div class="date">' + event_date + ' - ' + event_to_date + '</div></div>';
 
           // title.text(events.features[i].properties.play_title_display);
           title.html(eventInfo);
