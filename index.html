@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width" />
+<meta property="og:image" content="evening-at-the-talk-house-screenshot.png" />
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 <style>
 
@@ -99,6 +100,8 @@ h1 {
 <script src="//d3js.org/queue.v1.min.js"></script>
 <script src="//d3js.org/topojson.v1.min.js"></script>
 <script src="moment.js"></script>
+<!-- <script src="reimg.js"></script> -->
+<!-- <script src="html2canvas.js"></script> -->
 <script>
 
 var actualWidth = window.innerWidth,
@@ -133,7 +136,7 @@ var projection = d3.geo.orthographic()
 
 var graticule = d3.geo.graticule();
 
-var canvas = d3.select(".content").append("canvas")
+var canvas = d3.select(".content").append("canvas").attr('id', 'canvas')
     .attr("width", actualWidth)
     .attr("height", actualHeight);
 
@@ -187,6 +190,7 @@ function ready(error, world, events, names) {
         .duration(1250)
         .each("start", function() {
           i = (i + 1) % n;
+
           var event_type = events.features[i].properties.event_type;
           var play_title_display = events.features[i].properties.play_title_display;
           var event_to_date = events.features[i].properties.event_to_date;
@@ -300,8 +304,27 @@ function ready(error, world, events, names) {
           };
         })
       .transition()
-        .each("end", transition);
-        // .each("end", function() { if (this.__transition__.count < 2) transition(); });
+        .each("end", function() {
+          // Trigger the next transition
+          transition();
+
+          // // Only generate images on the first pass
+          // if (i == 0) {
+          //   // Get the full page including page title and event info text
+          //   html2canvas(document.body, {
+          //     onrendered: function(canvas) {
+          //       // document.body.appendChild(canvas);
+          //       var png = ReImg.fromCanvas(canvas).toPng();
+          //       // document.getElementById("facebook-image-wrapper").replaceChild(png, document.getElementById('facebook-image-wrapper').children[0]);
+          //     }
+          //   });
+
+          //   // Just get the globe (no title, no event info text)
+          //   // What is the canvas var here?? Maybe I deleted it by accident
+          //   // var png = ReImg.fromCanvas(canvas).toPng();
+          //   // document.getElementById("facebook-image-wrapper").replaceChild(png, document.getElementById('facebook-image-wrapper').children[0]);
+          }
+        });
   })();
 }
 
